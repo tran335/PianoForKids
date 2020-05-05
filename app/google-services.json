@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "183265835229",
+    "firebase_url": "https://pianoforkids-906e3.firebaseio.com",
+    "project_id": "pianoforkids-906e3",
+    "storage_bucket": "pianoforkids-906e3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:183265835229:android:d36955db2944b5ff050334",
+        "android_client_info": {
+          "package_name": "com.e.pianoforkids"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "183265835229-bcsdbdr0rsl5tsb6j31ha4cjl2or7er5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-pPrXWWAIncuvFE5ViAq7uSr-mnaiJlc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "183265835229-bcsdbdr0rsl5tsb6j31ha4cjl2or7er5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
