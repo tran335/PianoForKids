@@ -3,5 +3,6 @@
     <array name="preloaded_fonts" translatable="false">
         <item>@font/aclonica</item>
         <item>@font/aguafina_script</item>
+        <item>@font/covered_by_your_grace</item>
     </array>
 </resources>

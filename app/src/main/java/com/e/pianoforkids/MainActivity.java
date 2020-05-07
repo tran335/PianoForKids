@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.os.Bundle;
 
 import com.e.pianoforkids.View.LoginActivity;
+import com.e.pianoforkids.View.MainMenuActivity;
 
 import static android.content.pm.ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE;
 
@@ -18,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         this.setRequestedOrientation(SCREEN_ORIENTATION_LANDSCAPE);
-        Intent pianoIntent = new Intent(this, LoginActivity.class);
+        Intent pianoIntent = new Intent(this, MainMenuActivity.class);
         startActivity(pianoIntent);
     }
 }

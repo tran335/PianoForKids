@@ -4,12 +4,12 @@
     package="com.e.pianoforkids">
 
     <supports-screens
-        android:smallScreens="true"
-        android:normalScreens="true"
-        android:largeScreens="true"
-        android:xlargeScreens="true"
         android:anyDensity="true"
-        android:resizeable="true" />
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
 
     <application
         android:allowBackup="true"
@@ -20,11 +20,18 @@
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup">
         <activity
-            android:name="com.e.pianoforkids.View.LoginActivity"
+            android:name=".View.MainMenuActivity"
+            android:screenOrientation="landscape"
+            tools:ignore="GoogleAppIndexingWarning,InnerclassSeparator,LockedOrientationActivity">
+
+        </activity>
+        <activity
+            android:name=".View.LoginActivity"
             android:screenOrientation="landscape"
             tools:ignore="GoogleAppIndexingWarning,InnerclassSeparator,LockedOrientationActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
