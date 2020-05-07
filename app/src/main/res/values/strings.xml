@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">PianoForKids</string>
+    <string name="login">LOG IN</string>
+    <string name="show_logo">show logo</string>
+    <string name="register_here">No account yet? Create one</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="show_another_login">show another login</string>
+    <string name="login_with_twitter">login with twitter</string>
+    <string name="login_title">Login</string>
+    <string name="fb_auth">signIn with fb account</string>
 </resources>
