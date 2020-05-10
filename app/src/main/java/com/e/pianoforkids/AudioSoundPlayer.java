@@ -22,6 +22,7 @@ class AudioSoundPlayer {
 
     static {
         // white keys sounds
+
         PIANO_SOUND_MAP.put(1, "Piano.mf.C3");
         PIANO_SOUND_MAP.put(2, "Piano.mf.D3");
         PIANO_SOUND_MAP.put(3, "Piano.mf.E3");
@@ -36,6 +37,7 @@ class AudioSoundPlayer {
         PIANO_SOUND_MAP.put(12, "Piano.mf.G4");
         PIANO_SOUND_MAP.put(13, "Piano.mf.A4");
         PIANO_SOUND_MAP.put(14, "Piano.mf.B4");
+
         // black keys sounds
         PIANO_SOUND_MAP.put(15, "Piano.mf.Db3");
         PIANO_SOUND_MAP.put(16, "Piano.mf.Eb3");
@@ -91,8 +93,10 @@ class AudioSoundPlayer {
             try {
                 String path = PIANO_SOUND_MAP.get(note) + ".wav";
                 Log.i(TAG,"GET NOTE  "+note +" Completed");
+
                 AssetManager assetManager = context.getAssets();
                 AssetFileDescriptor ad = assetManager.openFd(path);
+
                 long fileSize = ad.getLength();
                 int bufferSize = 512;
                 byte[] buffer = new byte[bufferSize];
@@ -106,6 +110,7 @@ class AudioSoundPlayer {
 
                 audioTrack.play();
                 Log.i(TAG,"Playing note  "+note +" completed");
+
                 InputStream audioStream;
                 int headerOffset = 0x2C;
                 long bytesWritten = 0;

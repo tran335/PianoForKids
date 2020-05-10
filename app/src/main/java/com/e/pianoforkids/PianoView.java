@@ -1,5 +1,6 @@
 package com.e.pianoforkids;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Color;
@@ -132,18 +133,15 @@ public class PianoView extends View {
 
 
     private void releaseKey(final Key k) {
-        final Handler handler = new Handler() {
+        @SuppressLint("HandlerLeak") final Handler handler = new Handler() {
             @Override public void handleMessage(Message msg) {
                invalidate();
             }
         };
 
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                k.down = false;
-                handler.sendEmptyMessage(0);
-            }
+        handler.postDelayed(() -> {
+            k.down = false;
+            handler.sendEmptyMessage(0);
         }, 100);
     }
 

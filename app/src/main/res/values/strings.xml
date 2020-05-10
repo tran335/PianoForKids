@@ -11,4 +11,7 @@
     <string name="login_title">Login</string>
     <string name="fb_auth">signIn with fb account</string>
     <string name="app_title">LET\'S PLAY MUSIC</string>
+    <string name="fix">song_content</string>
+    <string name="fix1">TODO</string>
+    <string name="fix2">TODO</string>
 </resources>
