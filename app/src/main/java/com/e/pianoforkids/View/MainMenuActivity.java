@@ -45,8 +45,6 @@ public class MainMenuActivity extends AppCompatActivity {
         playBackgroundMusic();
     }
 
-
-
     public void playSound(View view) {
         if (!sound_player.isPlaying())
             sound_player.start();

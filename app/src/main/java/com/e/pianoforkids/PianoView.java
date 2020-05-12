@@ -129,9 +129,6 @@ public class PianoView extends View {
         return null;
     }
 
-
-
-
     private void releaseKey(final Key k) {
         @SuppressLint("HandlerLeak") final Handler handler = new Handler() {
             @Override public void handleMessage(Message msg) {
@@ -144,12 +141,5 @@ public class PianoView extends View {
             handler.sendEmptyMessage(0);
         }, 100);
     }
-
-
-
-
-
-
-
 
 }
