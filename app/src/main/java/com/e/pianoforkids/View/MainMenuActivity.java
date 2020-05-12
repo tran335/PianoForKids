@@ -63,7 +63,5 @@ public class MainMenuActivity extends AppCompatActivity {
             background_music.setLooping(true);
             background_music.start();
         }
-
-
     }
 }
