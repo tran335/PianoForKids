@@ -27,6 +27,8 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
+        android:drawableStart="@drawable/ic_user_avatar"
+        android:drawablePadding="10dp"
         android:id="@+id/text_username"
         android:layout_width="match_parent"
         android:layout_height="60dp"
@@ -51,6 +53,8 @@
         app:layout_constraintTop_toBottomOf="@+id/login_title" />
 
     <EditText
+        android:drawableStart="@drawable/ic_passwd"
+        android:drawablePadding="10dp"
         android:id="@+id/text_password"
         android:layout_width="match_parent"
         android:layout_height="60dp"
@@ -92,7 +96,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.26">
+        app:layout_constraintVertical_bias="0.26" >
+
 
         <RelativeLayout
             android:layout_width="300dp"
@@ -109,6 +114,7 @@
                 android:layout_marginTop="17dp"
                 android:text="@string/login"
                 android:textColor="#fff"
+                android:onClick="goToMainMenu"
                 android:textSize="20sp" />
         </RelativeLayout>
     </androidx.cardview.widget.CardView>
@@ -148,7 +154,7 @@
             android:id="@+id/imageLoginWithTwitter"
             android:layout_width="30dp"
             android:layout_height="32dp"
-            android:background="@color/color_skyBlueForTwitter"
+            android:background="@drawable/custom_button"
             android:contentDescription="@string/login_with_twitter"
             app:srcCompat="@drawable/twitter" />
 
@@ -157,7 +163,7 @@
             android:layout_width="30dp"
             android:layout_height="34dp"
             android:layout_marginStart="15dp"
-            android:background="@color/color_pinkForIns"
+            android:background="@drawable/custom_button"
             android:contentDescription="@string/show_another_login"
             app:srcCompat="@drawable/instagram" />
 
@@ -166,7 +172,7 @@
             android:layout_width="32dp"
             android:layout_height="34dp"
             android:layout_marginStart="15dp"
-            android:background="@color/color_blueForFb"
+            android:background="@drawable/custom_button"
             app:srcCompat="@drawable/facebook"
             android:contentDescription="@string/fb_auth" />
     </LinearLayout>

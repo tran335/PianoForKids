@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.e.pianoforkids.PianoActivity">
+    tools:context="com.e.pianoforkids.PianoActivity"
+    android:background="@drawable/main_background">
 
     <com.e.pianoforkids.PianoView
         android:layout_width="match_parent"
@@ -13,5 +14,23 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/button_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="670dp"
+        android:layout_marginBottom="280dp"
+        android:background="@drawable/frame_custom_layout"
+        android:clickable="true"
+        android:contentDescription="@string/describe_button"
+        android:elevation="10dp"
+        android:focusable="true"
+        android:onClick="backToMainMenu"
+        android:src="@drawable/ic_back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
