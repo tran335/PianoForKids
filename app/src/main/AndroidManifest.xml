@@ -20,17 +20,19 @@
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup">
         <activity
+            android:name=".View.SettingsActivity"
+            android:label="@string/title_activity_settings"></activity>
+        <activity
             android:name=".View.MainMenuActivity"
             android:screenOrientation="landscape"
-            tools:ignore="GoogleAppIndexingWarning,InnerclassSeparator,LockedOrientationActivity">
-
-        </activity>
+            tools:ignore="GoogleAppIndexingWarning,InnerclassSeparator,LockedOrientationActivity"></activity>
         <activity
             android:name=".View.LoginActivity"
             android:screenOrientation="landscape"
             tools:ignore="GoogleAppIndexingWarning,InnerclassSeparator,LockedOrientationActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

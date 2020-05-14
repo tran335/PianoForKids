@@ -1,0 +1,12 @@
+<resources>
+    <!-- Settings Preference -->
+    <string-array name="scale_for_key">
+        <item>C D E </item>
+        <item>DO RE MI </item>
+    </string-array>
+
+    <string-array name="scale_value">
+        <item>C D E C</item>
+        <item>DO RE MI </item>
+    </string-array>
+</resources>

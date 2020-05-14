@@ -1,0 +1,35 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <PreferenceCategory app:title="@string/settings_header"
+        app:icon="@drawable/ic_settings_36dp">
+
+
+        <ListPreference
+            app:icon="@drawable/ic_keyboard_scale"
+            app:defaultValue="C D E "
+            app:entries="@array/scale_for_key"
+            app:entryValues="@array/scale_value"
+            app:key="scale"
+            app:title="@string/scale_title"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:title="@string/sound_settings"
+        >
+
+        <SwitchPreferenceCompat
+            app:icon="@drawable/ic_sound_settings"
+            app:key="sound"
+            app:title="@string/sound_on_off" />
+
+        <SwitchPreferenceCompat
+            app:icon="@drawable/ic_background_music_settings"
+            app:key="music_background"
+            app:title="@string/background_music_on_off" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
