@@ -1,4 +1,4 @@
-package view.activity;
+package com.e.pianoforkids.view.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 

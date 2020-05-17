@@ -1,4 +1,4 @@
-package view.activity;
+package com.e.pianoforkids.view.activity;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -13,8 +13,6 @@ import com.e.pianoforkids.R;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.preference.PreferenceFragmentCompat;
-
-import view.activity.MainMenuActivity;
 
 public class SettingsActivity extends AppCompatActivity {
 

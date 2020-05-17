@@ -1,4 +1,4 @@
-package view.activity;
+package com.e.pianoforkids.view.activity;
 
 import android.os.Bundle;
 import android.util.Log;

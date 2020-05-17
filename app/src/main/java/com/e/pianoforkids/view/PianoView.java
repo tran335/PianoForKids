@@ -1,4 +1,4 @@
-package view;
+package com.e.pianoforkids.view;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
