@@ -8,7 +8,7 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 
-import com.e.pianoforkids.View.MainMenuActivity;
+import view.MainMenuActivity;
 
 public class PianoActivity extends AppCompatActivity {
 

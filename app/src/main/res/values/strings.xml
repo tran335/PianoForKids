@@ -36,4 +36,7 @@
     <string name="attachment_summary_off">Only download attachments when manually requested</string>
     <string name="settings_header">Settings</string>
     <string name="describe_button">make go back possible</string>
+    <string name="sound">Sound</string>
+    <string name="background_music">Background Music</string>
+    <string name="language">Language</string>
 </resources>

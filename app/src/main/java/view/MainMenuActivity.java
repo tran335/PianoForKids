@@ -1,4 +1,4 @@
-package com.e.pianoforkids.View;
+package view;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -10,9 +10,6 @@ import android.view.View.OnClickListener;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.ImageButton;
-import android.widget.ImageView;
-import android.view.LayoutInflater;
-import android.widget.RelativeLayout;
 
 import com.e.pianoforkids.PianoActivity;
 import com.e.pianoforkids.R;

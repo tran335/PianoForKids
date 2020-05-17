@@ -1,6 +1,4 @@
 apply plugin: 'com.android.application'
-apply plugin: 'kotlin-android-extensions'
-apply plugin: 'kotlin-android'
 apply plugin: 'com.google.gms.google-services'
 
 android {
@@ -18,8 +16,6 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-            applicationIdSuffix = kotlin_version
-            versionNameSuffix = kotlin_version
             debuggable = true
             jniDebuggable = true
             renderscriptDebuggable = true
@@ -51,7 +47,6 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
     implementation 'androidx.cardview:cardview:1.0.0'
     implementation "androidx.core:core-ktx:1.2.0"
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation 'com.google.android.material:material:1.1.0'
     implementation 'com.github.markushi:circlebutton:1.1'
 
@@ -60,6 +55,17 @@ dependencies {
 
     implementation 'com.skyfishjy.ripplebackground:library:1.0.1'
 
+    def lifecycle_version = "2.2.0"
+    def  archLifecycleVersion = '2.2.0'
+    implementation "android.arch.lifecycle:viewmodel:$lifecycle_version"
+    // ViewModel
+    implementation "androidx.lifecycle:lifecycle-viewmodel:$lifecycle_version"
+    // LiveData
+    implementation "androidx.lifecycle:lifecycle-livedata:$lifecycle_version"
+    // Lifecycle components
+    implementation "androidx.lifecycle:lifecycle-extensions:$archLifecycleVersion"
+    //noinspection LifecycleAnnotationProcessorWithJava8
+    annotationProcessor "androidx.lifecycle:lifecycle-compiler:$archLifecycleVersion"
 }
 repositories {
     mavenCentral()

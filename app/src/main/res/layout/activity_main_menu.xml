@@ -8,7 +8,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/main_background"
     android:paddingTop="10dp"
-    tools:context=".View.MainMenuActivity">>
+    tools:context="view.MainMenuActivity">>
 
     <com.airbnb.lottie.LottieAnimationView
         android:layout_width="146dp"
