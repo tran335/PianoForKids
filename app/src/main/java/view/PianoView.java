@@ -1,4 +1,4 @@
-package com.e.pianoforkids;
+package view;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -11,6 +11,8 @@ import android.os.Message;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
+
+import com.e.pianoforkids.data.model.Key;
 
 import java.util.ArrayList;
 

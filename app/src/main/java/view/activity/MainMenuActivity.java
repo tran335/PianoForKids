@@ -1,4 +1,4 @@
-package view;
+package view.activity;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -11,7 +11,6 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.ImageButton;
 
-import com.e.pianoforkids.PianoActivity;
 import com.e.pianoforkids.R;
 import com.skyfishjy.library.RippleBackground;
 

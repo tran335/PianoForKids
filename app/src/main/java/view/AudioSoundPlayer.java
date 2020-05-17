@@ -1,4 +1,4 @@
-package com.e.pianoforkids;
+package view;
 
 import android.content.Context;
 import android.content.res.AssetFileDescriptor;

@@ -1,4 +1,4 @@
-package view;
+package view.activity;
 
 import android.os.Bundle;
 import android.util.Log;

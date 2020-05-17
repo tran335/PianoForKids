@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.e.pianoforkids.PianoActivity"
+    tools:context="com.e.pianoforkids.view.PianoActivity"
     android:background="@drawable/main_background">
 
-    <com.e.pianoforkids.PianoView
+    <view.PianoView
         android:layout_width="match_parent"
         android:layout_height="224dp"
         android:layout_marginEnd="1dp"

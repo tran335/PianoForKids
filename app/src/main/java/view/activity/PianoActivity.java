@@ -1,4 +1,4 @@
-package com.e.pianoforkids;
+package view.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,7 +8,9 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 
-import view.MainMenuActivity;
+import com.e.pianoforkids.R;
+
+import view.activity.MainMenuActivity;
 
 public class PianoActivity extends AppCompatActivity {
 

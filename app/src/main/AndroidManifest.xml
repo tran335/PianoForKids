@@ -20,25 +20,25 @@
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup">
         <activity
-            android:name="view.SettingsActivity"
+            android:name="view.activity.SettingsActivity"
             android:label="@string/title_activity_settings"
             android:screenOrientation="landscape"
             tools:ignore="GoogleAppIndexingWarning,InnerclassSeparator,LockedOrientationActivity">
 
         </activity>
         <activity
-            android:name="view.MainMenuActivity"
+            android:name="view.activity.MainMenuActivity"
             android:screenOrientation="landscape"
             tools:ignore="GoogleAppIndexingWarning,InnerclassSeparator,LockedOrientationActivity">
 
         </activity>
         <activity
-            android:name="view.LoginActivity"
+            android:name="view.activity.LoginActivity"
             android:screenOrientation="landscape"
             tools:ignore="GoogleAppIndexingWarning,InnerclassSeparator,LockedOrientationActivity">
 
         </activity>
-        <activity android:name="view.SettingActivity">
+        <activity android:name="view.activity.SettingActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -46,7 +46,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".PianoActivity"
+            android:name="view.activity.PianoActivity"
             android:screenOrientation="landscape"
             tools:ignore="GoogleAppIndexingWarning,LockedOrientationActivity" />
 
